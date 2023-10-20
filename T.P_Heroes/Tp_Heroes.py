@@ -9,7 +9,7 @@ def listado_heroes ()->str:
     for heroe in lista_heroes:
         print("Nombre del Heroe: ")
         print("")
-        print(heroe ["nombre"])
+        print(heroe["nombre"])
         print("")
     return heroe
 
@@ -61,7 +61,7 @@ def promedios_altura ():
         total_alturas += float(heroe["altura"])
         cantidad_heroe += 1
 
-    altura_promedio = total_alturas / cantidad_heroe
+    altura_promedio = total_alturas // cantidad_heroe
 
     print("La altura promedio de los superheroes es: ")
     print("")
